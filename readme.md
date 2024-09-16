@@ -15,14 +15,7 @@ This repository is aimed at helping beginners like me to learn Dart by practicin
 - Variables and Data Types
 - Control Flow (if-else, loops)
 - Functions
-- Classes and Objects
+- OOPs Concepts
 - Collections (Lists, Maps)
 - Error Handling
 - More as I continue learning!
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/repo-name.git
-   ```
