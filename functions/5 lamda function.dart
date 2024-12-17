@@ -10,6 +10,8 @@ void main() {
         'yooo!'); // inner print() prints the body of function i.e yooo! and the outer print() prints the return value of this anonymous function i.e null
   }());
 
+  () => print('my name is jagriti jha');
+
   // another way to do the same thing without return values
   print('\nsame thing without return values:');
 
@@ -19,12 +21,17 @@ void main() {
   sum(4, 5);
   print('product is ${product(4, 2)}\n');
 
-  print(((int a, int b) => a * b)(4, 5));
+// inline anonymous function
+  print(
+    ((int a, int b) => a * b)(4, 5),
+  );
 
+// immediately Invoked Function Expression (IIFE)
   () {
-    print('\nyooo!\n');
+    // print('\nyooo!\n');
   }();
 
+// inline Lambda with print
   ((int a, int b) => print('mod is ${a % b}\n'))(4, 5);
 }
 
