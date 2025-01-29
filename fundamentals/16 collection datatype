@@ -1,0 +1,19 @@
+void main() {
+  // List
+  List<String> names = ["Alice", "Bob", "Charlie"];
+  names.add("David");
+
+  // Set (unique values)
+  Set<int> uniqueNumbers = {1, 2, 3, 4, 4, 5}; // Duplicates ignored
+
+  // Map (Key-Value Pair)
+  Map<String, dynamic> person = {
+    'name': "John",
+    'age': 30,
+    'isEmployed': true
+  };
+
+  print("Names: $names");
+  print("Unique Numbers: $uniqueNumbers");
+  print("Person Info: $person");
+}
